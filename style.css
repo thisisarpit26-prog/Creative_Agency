@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+header {
+    padding: 10px 100px;
+    height: 10%;
+    width: 100%;
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header .left {
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+}
+
+header .left h1 {
+    font-weight: 400;
+    line-height: 35px;
+    position: absolute;
+    /* top: 100%; */
+    text-transform: uppercase;
+}
+
+header .left h1 span {
+    color: grey;
+    font-weight: 100;
+
+}
+
+.right {
+    position: absolute;
+    /* background-color: red; */
+    right: 100px;
+    top: 10px;
+    text-align: right;
+
+}
+
+.right p {
+    font-weight: 500;
+    /* line-height: 1; */
+    font-size: 16px;
+}
+
+.right button {
+    padding: 5px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.heading {
+    width: calc(100% - 100px);
+    height: 80%;
+    margin-top: 15px;
+    /* background-color:green; */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.head-sections {
+    height: calc(100%/4);
+    border-bottom: 1px solid #2A2A2A;
+
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.forth {
+    border: none;
+}
+
+.head-sections h1 {
+    position: absolute;
+    font-size: 150px;
+    font-weight: 600;
+
+}
+
+.first h1 {
+    margin-top: -4%;
+    left: 28%;
+}
+
+.second h1 {
+    margin-top: -4%;
+}
+
+.third h1 {
+    margin-top: -3.2%;
+    left: 20%;
+}
+
+.forth h1 {
+    margin-top: -3%;
+    left: 4.5%;
+}
+
+.para-forth {
+    position: absolute;
+    left: 60%;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.para-forth span {
+    color: #525252;
+}
+
+.rectangle {
+    height: 165%;
+    width: 150px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 12%;
+}
+
+.semi-circle {
+    height: 200%;
+    width: 150px;
+    background-color: red;
+    position: absolute;
+    left: 45.8%;
+    border-radius: 0 200px 200px 0;
+    overflow: hidden;
+}
+
+.circle {
+    height: 100%;
+    width: 140px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    left: 7.5%;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.black {
+    height: 15%;
+    width: 100%;
+    background-color: black;
+}
+
+.white {
+    height: 100%;
+    width: 100%;
+    color: black;
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.w-left {
+    font-size: 70px;
+    font-weight: 630;
+    line-height: 1.1;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+}
+
+.w-right {
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 10%;
+    right: 10%
+}
+
+.w-right span {
+    background-color: black;
+    color: white;
+}
